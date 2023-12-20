@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elektrik Eel</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/desktop.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script defer src="/js/main.js"></script>
+  </head>
+
+  <body>
+    <div onclick="closeMenu()" class="mobile-menu">
+      <i class="fa-regular fa-circle-xmark"></i>
+      <div class="menu-content">
+        <p>Home</p>
+        <p>Artist</p>
+        <p>About Us</p>
+        <p>FAQ</p>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="top-menu">
+        <div class="logo">
+          <h1>Elektrik Eel</h1>
+        </div>
+        <div onclick="openMenu()" class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="desktop-nav">
+          <div class="home-nav"><a href="/index.html">Home</a></div>
+          <div class="artist-nav"><a href="/artists.html">Artists</a></div>
+          <div class="about-us-nav"><a href="#AboutUs">About Us</a></div>
+          <div class="FAQ-nav"><a href="#FAQ">FAQ</a></div>
+        </div>
+      </div>
+
+      <div class="buy-now-mobile">
+        <p>3 nights of premiere artistry and hypnotic craftsmanship!!</p>
+      </div>
+
+      <div class="buy-now">
+        <p>3 nights of premiere artistry and hypnotic craftsmanship!!</p>
+        <div class="buy-now-button">
+          <button><p>Buy Now</p></button>
+        </div>
+      </div>
+      <div class="header-content"></div>
+    </div>
+
+    <div class="fader"></div>
+
+    <section class="ticket-section">
+      <div class="right-ticket">
+        <div class="picture">
+          <img
+            src="images/rightticket.png"
+            alt="Tickets"
+            width="175"
+            height="150"
+          />
+        </div>
+        <div class="right-ticket-text">
+          <p>
+            Elektrik Eel Brisbane <br />
+            21th December
+          </p>
+        </div>
+      </div>
+      <div class="main-ticket">
+        <div class="picture">
+          <img
+            src="images/maintickett.png"
+            alt="Tickets"
+            width="270"
+            height="230"
+          />
+        </div>
+        <div class="main-ticket-text">
+          <p>
+            Elektrik Eel Brisbane <br />
+            19th December
+          </p>
+          <div class="button1">
+            <button type="button">Buy now</button>
+          </div>
+        </div>
+      </div>
+      <div class="left-ticket">
+        <div class="picture">
+          <img
+            src="images/leftticket.png"
+            alt="Tickets"
+            width="175"
+            height="150"
+          />
+        </div>
+        <div class="left-ticket-text">
+          <p>
+            Elektrik Eel Melbourne <br />
+            20th December
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="fader"></div> -->
+
+    <!-- For some reason theres this underline under the artist image from me(hopefully its not there for u). If there is I couldnt diagnos why its there.=( -->
+    <div class="artists">
+      <div class="title-artist">
+        <p>Artist Lineup</p>
+      </div>
+      <div class="artist-selection">
+        <div class="richie">
+          <img src="/images/artist1.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Richie Hawtin</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="robert">
+          <img src="/images/artist2.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Robert Hood</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="surgeon">
+          <img src="/images/artist3.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Surgeon</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="oscar">
+          <img src="/images/artist4.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Oscar Mulero</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="robag">
+          <img src="/images/artist5.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Robag Wruh</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <div class="artist-selection-desktop">
+        <div class="richie">
+          <img src="/images/artist1.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Richie Hawtin</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="robert">
+          <img src="/images/artist2.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Robert Hood</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="surgeon">
+          <img src="/images/artist3.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Surgeon</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="oscar">
+          <img src="/images/artist4.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Oscar Mulero</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="robag">
+          <img src="/images/artist5.png" height="55px" width="55px" />
+          <div class="refbox-artists">
+            <p>Robag Wruh</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+
+    <section class="genre">
+      <div class="title-genre">
+        <p>Genre</p>
+      </div>
+      <div class="genre-selection">
+        <div class="genre1">
+          <div class="refbox-genre">
+            <p>Acid House</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre2">
+          <div class="refbox-genre">
+            <p>Chicago house</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre3">
+          <div class="refbox-genre">
+            <p>Deep House</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre4">
+          <div class="refbox-genre">
+            <p>Tribal House</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre5">
+          <div class="refbox-genre">
+            <p>Dark Electro</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <div class="genre-selection-desktop">
+        <div class="genre1">
+          <div class="refbox-genre">
+            <p>Acid House</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre2">
+          <div class="refbox-genre">
+            <p>Chicago house</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre3">
+          <div class="refbox-genre">
+            <p>Deep House</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre4">
+          <div class="refbox-genre">
+            <p>Tribal House</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="genre5">
+          <div class="refbox-genre">
+            <p>Dark Electro</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticketsales">
+      <div class="title-ticket">
+        <p>Buy Tickets</p>
+      </div>
+      <div class="ticket-selection">
+        <div class="earlybird">
+          <div class="refbox-ticket">
+            <p>Early bird at $129</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="walkin">
+          <div class="refbox-ticket">
+            <p>Walk in at $159</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <div class="ticket-selection-desktop">
+        <div class="earlybird">
+          <div class="refbox-ticket">
+            <p>Early bird at $129</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="walkin">
+          <div class="refbox-ticket">
+            <p>Walk in at $159</p>
+          </div>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h2>About Us</h2>
+          <p>Blog</p>
+          <p>Our Story</p>
+          <p>Our Team</p>
+        </div>
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>Email: contact@example.com<br />Phone: (123) 456-7890</p>
+          <br />
+
+          <label for="update">Get updates on latest events and news!!</label
+          ><br />
+          <input
+            type="text"
+            id="update"
+            name="update"
+            placeholder="someone@something.something"
+            required
+          />
+          <input type="submit" />
+        </div>
+        <div class="footer-section">
+          <h2>Follow Us</h2>
+          <p>Stay updated on social media:</p>
+          <ul class="social-media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Elektrik Eel. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
